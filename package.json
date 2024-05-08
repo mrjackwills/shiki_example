@@ -1,0 +1,32 @@
+{
+  "name": "shiki_example",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force"
+  },
+  "dependencies": {
+    "prismjs": "^1.29.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.5",
+    "@types/prismjs": "^1.26.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all2": "^6.1.2",
+    "shiki": "^1.4.0",
+    "typescript": "~5.4.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.2.8",
+    "vue-tsc": "^2.0.11"
+  }
+}
